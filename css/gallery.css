@@ -5,10 +5,3 @@ img {
     object-fit: cover;
     border-radius: 8px;
 }
-img-table{
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    flex-flow: row;
-}
