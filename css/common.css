@@ -1,0 +1,38 @@
+.heading-anim {
+    position: relative;
+    animation-name: heading;
+    animation-duration: 2s;
+    margin: 50px 10px 50px 10px;
+    text-align: center;
+}
+
+@keyframes heading {
+    0% {
+        top: 100px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 0px;
+        opacity: 100%;
+    }
+}
+
+.h-anim {
+    position: relative;
+    animation-name: h;
+    animation-duration: 4s;
+
+}
+
+@keyframes h {
+    0% {
+
+        opacity: 0%;
+    }
+
+    100% {
+
+        opacity: 100%;
+    }
+}

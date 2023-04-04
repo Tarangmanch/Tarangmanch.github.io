@@ -5,3 +5,62 @@ img {
     object-fit: cover;
     border-radius: 8px;
 }
+
+.heading-anim {
+    position: relative;
+    animation-name: heading;
+    animation-duration: 2s;
+}
+@keyframes heading {
+    0% {
+        top:100px;
+        opacity: 0%;
+    }
+
+    100% {
+        top:0px;
+        opacity: 100%;
+    }
+}
+.h-anim{
+position: relative;
+    animation-name: h;
+    animation-duration: 4s;
+
+}
+.h1-anim{
+    position: relative;
+        animation-name: h;
+        animation-duration: 4s;
+}
+
+.h2-anim{
+    position: relative;
+        animation-name: h;
+        animation-duration: 4s;
+}
+@keyframes h {
+    0% {
+  
+        opacity: 0%;
+    }
+    100% {
+
+        opacity: 100%;
+    }
+}
+
+.carousel-anim{
+    position: relative;
+        animation-name: carousel;
+        animation-duration: 2s;
+}
+@keyframes carousel{
+    0%{
+        left: 1000px;
+    }
+    100%{
+        left:0px
+    }
+}
+
